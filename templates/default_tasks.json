@@ -1,0 +1,111 @@
+{
+  "templates": [
+    {
+      "name": "Blog Article Writing",
+      "description": "Write a comprehensive blog article on a specified topic, including research, drafting, and editing.",
+      "category": "content_gen",
+      "base_reward": 15.0,
+      "steps": [
+        "Research the topic and gather reference materials",
+        "Create an outline with key sections",
+        "Write the first draft",
+        "Edit for clarity, grammar, and style",
+        "Add SEO metadata and tags"
+      ],
+      "required_tags": ["writing", "blog", "content"]
+    },
+    {
+      "name": "Product Description Generation",
+      "description": "Generate compelling product descriptions for e-commerce listings.",
+      "category": "content_gen",
+      "base_reward": 8.0,
+      "steps": [
+        "Analyze product features and specifications",
+        "Identify target audience and key selling points",
+        "Write engaging product description",
+        "Optimize for search engines"
+      ],
+      "required_tags": ["writing", "product", "ecommerce"]
+    },
+    {
+      "name": "Image Data Labeling",
+      "description": "Label and annotate images for machine learning model training.",
+      "category": "data_label",
+      "base_reward": 10.0,
+      "steps": [
+        "Review image dataset",
+        "Apply classification labels",
+        "Draw bounding boxes where needed",
+        "Verify label accuracy and consistency"
+      ],
+      "required_tags": ["labeling", "images", "ml"]
+    },
+    {
+      "name": "Text Sentiment Annotation",
+      "description": "Annotate text data with sentiment labels (positive, negative, neutral).",
+      "category": "data_label",
+      "base_reward": 6.0,
+      "steps": [
+        "Read and understand text samples",
+        "Assign sentiment labels",
+        "Handle ambiguous cases with notes",
+        "Quality check annotations"
+      ],
+      "required_tags": ["labeling", "text", "sentiment"]
+    },
+    {
+      "name": "Technical Document Translation",
+      "description": "Translate technical documents, manuals, or papers between languages.",
+      "category": "translation",
+      "base_reward": 18.0,
+      "steps": [
+        "Analyze source document structure",
+        "Translate content maintaining technical accuracy",
+        "Review and refine translation quality",
+        "Verify terminology consistency"
+      ],
+      "required_tags": ["translation", "technical", "document"]
+    },
+    {
+      "name": "Code Review and Analysis",
+      "description": "Review source code for quality, security vulnerabilities, and best practices.",
+      "category": "code_review",
+      "base_reward": 22.0,
+      "steps": [
+        "Read and understand the codebase",
+        "Check for code quality issues",
+        "Identify security vulnerabilities",
+        "Provide improvement suggestions",
+        "Write review summary"
+      ],
+      "required_tags": ["code", "review", "security"]
+    },
+    {
+      "name": "Automated Test Case Generation",
+      "description": "Generate comprehensive test cases for software modules and APIs.",
+      "category": "qa_test",
+      "base_reward": 12.0,
+      "steps": [
+        "Analyze requirements and specifications",
+        "Design test scenarios",
+        "Generate test cases with expected results",
+        "Calculate test coverage metrics"
+      ],
+      "required_tags": ["testing", "qa", "automation"]
+    },
+    {
+      "name": "Market Research Report",
+      "description": "Conduct market research and compile a comprehensive analysis report.",
+      "category": "research",
+      "base_reward": 25.0,
+      "steps": [
+        "Define research scope and objectives",
+        "Gather data from multiple sources",
+        "Analyze market trends and patterns",
+        "Compile findings into structured report",
+        "Provide actionable recommendations"
+      ],
+      "required_tags": ["research", "market", "analysis"]
+    }
+  ]
+}

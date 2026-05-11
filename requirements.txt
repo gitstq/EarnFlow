@@ -1,0 +1,9 @@
+# EarnFlow - 轻量级AI自动化任务收益引擎
+# Lightweight AI Automated Task Earning Engine
+#
+# 零外部依赖，仅使用Python标准库
+# Zero external dependencies, Python standard library only
+
+# No external dependencies required
+# 所有模块均使用Python标准库实现
+# All modules are implemented using Python standard library
